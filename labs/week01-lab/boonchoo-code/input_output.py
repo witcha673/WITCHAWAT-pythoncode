@@ -1,8 +1,3 @@
-"""
-Week 1 Lab - Input and Output
-Learn how to get input from users and display output using print().
-"""
-
 # Exercise 1: Basic Input
 # Ask the user for their name and greet them
 print("=== Exercise 1: Basic Input ===")
@@ -24,7 +19,7 @@ first_name = input("Enter your first name: ")
 last_name = input("Enter your last name: ")
 birth_year = int(input("Enter your birth year: "))
 
-current_year = 2024
+current_year = 2025
 calculated_age = current_year - birth_year
 
 print("Full name:", first_name + " " + last_name)

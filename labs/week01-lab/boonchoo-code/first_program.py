@@ -1,24 +1,17 @@
-"""
-Week 1 Lab - First Python Program
-Complete the exercises below by writing Python code.
-"""
-
-# Exercise 1: Hello World
-# Write a program that prints "Hello, World!" to the screen
+# Exercise 1: Basic Print Statement
+# Write a print statement that displays "Hello, World!"
 print("Hello, World!")
 
-# Exercise 2: Print Your Name
-# Replace "Your Name" with your actual name
+# Exercise 2: Custom Print Statement
+# Write a print statement that displays your name, e.g., "My name is Your Name
 print("My name is Your Name")
 
 # Exercise 3: Multiple Print Statements
 # Write three print statements that display:
 # Line 1: Your name
 # Line 2: Your age
-# Line 3: Your favorite hobby
-
+# Line 3: Your favorite hobbyๅ
 # Write your code here:
-
 
 
 # Exercise 4: Print with Different Content
@@ -40,11 +33,11 @@ print("Third", "line", "with", "multiple", "arguments")
 # Exercise 6: Comments Practice
 # Add comments above each print statement explaining what it does
 
-# This prints a greeting message
+# 
 print("Welcome to Python programming!")
 
-# Add a comment for this line:
+# 
 print("Python is fun!")
 
-# Add a comment for this line:
+# 
 print("I am learning to code!")
