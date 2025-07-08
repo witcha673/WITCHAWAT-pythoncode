@@ -83,7 +83,7 @@ favorite_color = "red"
 current_year = 2025
 
 # Float variable with your favorite number (with decimal)
-favorite_number = 2
+favorite_number = 25
 
 # Boolean variable indicating if you like pizza
 likes_pizza = "hawaeeee"
