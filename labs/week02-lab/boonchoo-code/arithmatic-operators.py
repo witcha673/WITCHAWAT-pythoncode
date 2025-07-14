@@ -117,7 +117,7 @@ print("DEMO 4: Practical Examples")
 print("=" * 50)
 
 # ตัวอย่างที่ 1: คำนวณพื้นที่และปริมตรสี่เหลี่ยม
-print("📐 Rectangle Calculator")
+print("Rectangle Calculator")
 print("-" * 20)
 length = float(input("Enter rectangle length: "))
 width = float(input("Enter rectangle width: "))
@@ -130,7 +130,7 @@ print(f"Perimeter = 2 * (length + width) = 2 * ({length} + {width}) = {perimeter
 print()
 
 # ตัวอย่างที่ 2: แปลงหน่วยอุณหภูมิ
-print("🌡️  Temperature Converter")
+print("Temperature Converter")
 print("-" * 25)
 celsius = float(input("Enter temperature in Celsius: "))
 
@@ -143,7 +143,7 @@ print(f"Kelvin: celsius + 273.15 = {celsius} + 273.15 = {kelvin}K")
 print()
 
 # ตัวอย่างที่ 3: คำนวณค่าใช้จ่ายแบ่งเท่าๆ กัน
-print("💰 Bill Splitter")
+print("Bill Splitter")
 print("-" * 15)
 total_bill = float(input("Enter total bill amount: "))
 num_people = int(input("Enter number of people: "))
@@ -210,19 +210,19 @@ print("DEMO 6: Common Mistakes")
 print("=" * 50)
 
 # Mistake 1: Integer division in older Python versions
-print("⚠️  Watch out for division:")
+print("Watch out for division:")
 print("In Python 3: 5 / 2 =", 5 / 2, "(float)")
 print("Floor division: 5 // 2 =", 5 // 2, "(integer)")
 print()
 
 # Mistake 2: Operator precedence
-print("⚠️  Remember operator precedence:")
+print("Remember operator precedence:")
 print("2 + 3 * 4 =", 2 + 3 * 4, "(not 20!)")
 print("(2 + 3) * 4 =", (2 + 3) * 4, "(use parentheses)")
 print()
 
 # Mistake 3: Division by zero
-print("⚠️  Division by zero:")
+print("Division by zero:")
 try:
     result = 10 / 0
 except ZeroDivisionError:
@@ -230,7 +230,7 @@ except ZeroDivisionError:
 print()
 
 # Mistake 4: Very large numbers
-print("⚠️  Very large numbers:")
+print("Very large numbers:")
 large_num = 2 ** 100
 print(f"2 ** 100 = {large_num}")
 print("Python can handle very large integers!")
