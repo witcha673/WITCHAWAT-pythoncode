@@ -6,7 +6,7 @@ salary = float(input("Enter your salary: "))
 house_cost = float(input("Enter the cost of the house: "))
 food_cost = int(input("Enter the monthly food cost: "))
 tranport_cost = int(input("Enter the monthly transport cost: "))
-another_cost = int(input("Enter any other monthly cost: \n"))
+another_cost = int(input("Enter any other monthly cost: "))
 print("keep for emergency fund 15.0 and investment 10.5\n")
 
 total_fixed_cost = house_cost + tranport_cost
