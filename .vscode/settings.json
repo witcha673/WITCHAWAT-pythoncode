@@ -2,6 +2,8 @@
     "github.copilot.enable": {
         "*": false
     },
+    "editor.fontSize": 20,
+    "editor.fontFamily": "Cascadia Mono",
     "editor.quickSuggestions": {
         "other": false,
         "comments": false,
@@ -9,5 +11,5 @@
     },
     "editor.acceptSuggestionOnCommitCharacter": false,
     "editor.acceptSuggestionOnEnter": "off",
-    "github.copilot.editor.enableAutoCompletions": false
+    "github.copilot.editor.enableAutoCompletions": false,
 }
