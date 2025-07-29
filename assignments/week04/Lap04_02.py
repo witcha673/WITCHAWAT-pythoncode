@@ -26,12 +26,12 @@ for x in range(1, 11):
 
 print(f"original list {number_box}")
 
-even_number = even_numbers(number_box)
-odd_number = odd_numbers(number_box)
+even_numberr = even_numbers(number_box)
+odd_numberr = odd_numbers(number_box)
 greater_than_avg = greater_than_average(number_box)
 
-print(f"Even number {even_numbers}")
-print(f"Odd number {odd_numbers}")
+print(f"Even number {even_numberr}")
+print(f"Odd number {odd_numberr}")
 print(f"Number than average {greater_than_avg}")
 
 print("Statistic")
