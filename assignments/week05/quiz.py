@@ -7,7 +7,10 @@ def contact_book():
     
     # Initialize empty contacts dictionary
     # Key: contact name (string), Value: contact info (dictionary)
-    contacts = {}
+    contacts = {
+        "John Doe": {"phone": "123-456-7890", "email": "john@example.com", "category": "friend"},
+        "Jane Smith": {"phone": "987-654-3210", "email": "jane@example.com", "category": "work"},
+    }
     
     def add_contact():
         """Add a new contact to the address book"""
@@ -23,18 +26,13 @@ def contact_book():
         email = input("Enter email address: ").strip()
         category = input("Enter category (family/friend/work/other): ").strip().lower()
         
-        # TODO: Add input validation
-        # - Name should not be empty
-        # - Phone should contain only digits, spaces, and dashes
-        # - Email should contain @ symbol
-        # - Category should be one of the valid options
-        
         # TODO: Create contact dictionary and add to contacts
         contact_info = {
             # Fill in the contact information
         }
         
         # TODO: Add contact to the contacts dictionary
+        
         
         print(f"Contact '{name}' added successfully!")
     
@@ -84,10 +82,6 @@ def contact_book():
         if not contacts:
             print("No contacts found!")
             return
-        
-        # TODO: Display all contacts
-        # Sort alphabetically by name
-        # Format nicely with proper alignment
         
         print(f"{'Name':<20} {'Phone':<15} {'Email':<25} {'Category':<10}")
         print("-" * 70)
@@ -208,22 +202,7 @@ def contact_book():
         else:
             print("Invalid choice! Please enter a number between 1-9.")
 
-# Test data for development (remove in final submission)
-def load_sample_data():
-    """Load some sample contacts for testing"""
-    # TODO: Create a few sample contacts to test your program
-    # This function should return a dictionary of sample contacts
-    
-    sample_contacts = {
-        # Add sample data here
-    }
-    
-    return sample_contacts
-
 if __name__ == "__main__":
     print("Starting Contact Book Manager...")
-    
-    # Uncomment the next line to load sample data for testing
-    # contacts = load_sample_data()
     
     contact_book()
