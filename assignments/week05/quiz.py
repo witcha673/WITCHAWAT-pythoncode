@@ -123,45 +123,6 @@ def contact_book():
         
         pass
     
-    def contacts_by_category():
-        """Group and display contacts by category"""
-        print("\n=== Contacts by Category ===")
-        
-        if not contacts:
-            print("No contacts found!")
-            return
-        
-        # TODO: Group contacts by category
-        # Use a dictionary where key=category, value=list of contacts
-        # Display each category with its contacts
-        
-        categories = {}
-        
-        # TODO: Implement grouping logic
-        
-        pass
-    
-    def contact_statistics():
-        """Show statistics about the contact book"""
-        print("\n=== Contact Statistics ===")
-        
-        if not contacts:
-            print("No contacts found!")
-            return
-        
-        # TODO: Calculate and display:
-        # - Total number of contacts
-        # - Number of contacts per category
-        # - Most common category
-        # - Contacts with missing information (empty fields)
-        
-        total_contacts = len(contacts)
-        print(f"Total contacts: {total_contacts}")
-        
-        # TODO: Implement statistics calculation
-        
-        pass
-    
     # Main menu loop
     while True:
         print("\n" + "="*50)
@@ -193,14 +154,10 @@ def contact_book():
         elif choice == "6":
             delete_contact()
         elif choice == "7":
-            contacts_by_category()
-        elif choice == "8":
-            contact_statistics()
-        elif choice == "9":
             print("Thank you for using Contact Book Manager!")
             break
         else:
-            print("Invalid choice! Please enter a number between 1-9.")
+            print("Invalid choice! Please enter a number between 1-7.")
 
 if __name__ == "__main__":
     print("Starting Contact Book Manager...")
