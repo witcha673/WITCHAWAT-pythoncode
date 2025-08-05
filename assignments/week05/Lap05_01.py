@@ -2,24 +2,24 @@
 
 # view_contact() 
 # def view_contact(name, contacts):
-#     # TODO: Implement view_contact function
+#     # : Implement view_contact function
 #     pass
 
 # search_contacts() 
 # def search_contacts(query, contacts):
-#     # TODO: Implement search_contacts function
+#     # : Implement search_contacts function
 #     pass
 
 # list_all_contacts() 
 
 # update_contact() 
 # def update_contact(name, contacts):
-#     # TODO: Implement update_contact function
+#     # : Implement update_contact function
 #     pass
 
 # delete_contact() – ลบผู้ติดต่อออกจากระบบ
 # def delete_contact(name, contacts):
-#     # TODO: Implement delete_contact function
+#     # : Implement delete_contact function
 #     pass
 
 def add_contact():
@@ -78,3 +78,43 @@ def delete_contact(name, contacts):
                 print("Cancelled.")
             return
     print("Contact not found.")
+
+
+contacts = []
+
+while True:
+    print("\n========== CONTACT MENU ==========")
+    print("1.(Add)")
+    print("2.(List)")
+    print("3.(View)")
+    print("4.(Search)")
+    print("5.(Update)")
+    print("6.(Delete)")
+    print("7.(Exit)")
+    print("===================================")
+    
+    choice = input("เลือกเมนู (1-7): ")
+
+    if choice == "1":
+        new_contact = add_contact()
+        contacts.append(new_contact)
+    elif choice == "2":
+        list_all_contacts(contacts)
+    elif choice == "3":
+        name = input("Enter name to view: ")
+        view_contact(name, contacts)
+    elif choice == "4":
+        query = input("Enter keyword to search: ")
+        search_contacts(query, contacts)
+    elif choice == "5":
+        name = input("Enter name to update: ")
+        update_contact(name, contacts)
+    elif choice == "6":
+        name = input("Enter name to delete: ")
+        delete_contact(name, contacts)
+    elif choice == "7":
+        print("exit program Contact Book")
+        break
+    else:
+        print("try again(1-7)")
+
