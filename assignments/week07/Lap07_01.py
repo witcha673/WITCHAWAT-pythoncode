@@ -45,5 +45,17 @@ print(student1.get_grade_report())
     # - มี method ชื่อ get_area() ที่คืนค่าพื้นที่ของสี่เหลี่ยม
     # - มี method ชื่อ get_perimeter() ที่คืนค่ารอบรูปของสี่เหลี่ยม
 
+class Rectangle:
+        def __init__(self,lenght,width):
+            self.lenght = lenght
+            self.width = width
+        def get_area(self):
+            return self.lenght * self.width
+        def get_perimeter(self):
+            return 2 * (self.lenght + self.width)
+    
+Rectangle1 = Rectangle(5,10)
+print("Area:",Rectangle1.get_area())
+
 
 
