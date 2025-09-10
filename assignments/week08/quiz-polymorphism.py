@@ -1,9 +1,8 @@
 """
-Game Character System
-    Create a game character system:
+Demonstrate polymorphism by creating:
 
-        Character (base class): name, health, level
-        Warrior, Mage, Archer (derived classes) with unique abilities
-        Implement polymorphic behavior for attack methods
+    A base class Animal with method move()
+    Three derived classes: Fish, Bird, Dog with different implementations of move()
+    A function that takes any animal and calls its move() method
 """
 

@@ -1,9 +1,8 @@
 """ 
-Employee Management
-    Design classes for:
+Create a class hierarchy:
 
-        Employee (base class): name, employee_id, salary
-        Manager (inherits Employee): department, team_size
-        Developer (inherits Employee): programming_languages, projects
+    Base class Vehicle with attributes: brand, model, year
+    Derived class Car with additional attribute: number_of_doors
+    Implement a method get_info() in both classes
 
 """
