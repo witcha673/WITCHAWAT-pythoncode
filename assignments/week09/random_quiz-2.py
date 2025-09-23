@@ -12,7 +12,7 @@ Progressive hint system:
     After 5 wrong guesses: Show if divisible by 3 or 5
     After 7 wrong guesses: Narrow the range to 25-number window
     After 10 wrong guesses: Show first digit
-    
+
 Example 
     === Enhanced GUESSING GAME ===
     Guess my number between 1 and 100!
